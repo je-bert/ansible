@@ -46,3 +46,6 @@ make it clone
 ### Personal projects
 - I have to check for existance before doing anything else.  Else it doesn't
   quite work.
+
+
+  ansible-playbook -t dotfiles --ask-vault-pass local.yml
